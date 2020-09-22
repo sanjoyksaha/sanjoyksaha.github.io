@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kufam:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&family=IBM+Plex+Mono&family=Scheherazade&display=swap');
+
+body{
+  background-color: #d1d8e0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar{
+    background-color: #1e272e !important;
+    margin-top: 30px;
+    height: 590px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sidebar .list-group{
+    width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.sidebar .list-group .list-group-item{
+	background: none;
+	text-align: center;
+	border: none;
+	list-style: none;
+}
+
+.sidebar .list-group .top{
+	color:#fff;
+	text-transform: uppercase;
+	/* font-family: 'Poiret One', cursive; */
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.sidebar .list-group .top .name{
+	display: block;
+	font-size: 15px;
+	font-weight: 800;
+}
+
+.sidebar .list-group .list-group-item .links{
+	display: block;
+	color: #fff;
+  	text-decoration: none;
+  	text-transform: uppercase;
+	margin: 0px 15px 5px 15px;
+	border: 1px solid #fff;
+	padding: 5px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.sidebar .list-group .list-group-item .links:hover {
+  	color: #26de81;
+}
+
+.sidebar-footer{
+  	margin-top: 40px;
+}
+
+.sidebar-footer .list-group-item {
+  	border-bottom: none !important;
+}
+
+.sidebar-footer .social-icons{
+	font-size: 20px;
+	color: #fff;
+	margin-right: 25px;
+}
+
+.sidebar .copy p{
+	color: #fff;
+	font-size: 10px;
+	margin-top: -10px;
+}
+
+
+@media(max-width: 767px)
+{
+	/* Sidebar section start */
+
+	.sidebar{
+		background: none !important;
+		height: auto;
+		box-shadow: none;
+	}
+
+	.sidebar .list-group{
+		margin-top: 0;
+	}
+
+	.sidebar .list-group .top{
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 15px;
+		margin: 6px 6px 6px 10px;
+		font-weight: 800;
+	}
+
+	.sidebar .list-group .top .name{
+		display: inline;
+		font-size: 15px;
+		font-weight: 800;
+	}
+
+	.sidebar .list-group .list-group-item .links
+	{
+		border: none;
+		border-bottom: 1px solid #fff;
+		margin: 2px 15px 2px 15px;
+	}
+
+	
+	.navbar_toggler_icon{
+		border: 1px solid red;
+		color: #000;
+	}
+
+	.navbar-toggler:focus{
+		border: none;
+	}
+
+	.sidebar .navbar-collapse{
+		background-color: #1e272e !important;
+		position: absolute;
+		margin-top: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+		animation: load 0.6s forwards;
+		z-index: 2;
+	}
+
+	@keyframes load {
+		0%{
+			transform: translateY(0);
+		}
+		100%{
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.sidebar-footer{
+			margin-top: 5px;
+	}
+
+	.sidebar-footer .social-icons{
+			font-size: 22px;
+			margin-right: 25px;
+	}
+
+	/* Sidebar section end */
+
+	
+}
+
+/* Page transition start */
+/* .fade-enter {
+	opacity: 0;
+  	z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	transition: opacity 600ms ease-in;
+}
+
+.fade-exit {
+	opacity: 0;
+}
+
+.fade-exit.fade-exit-active {
+	opacity: 0.;
+	transition: opacity 600ms ease-in;
+} */
+
+
+
+
+.pageSlider-enter {
+	transform: translateY(-100%);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .pageSlider-enter.pageSlider-enter-active {
+	transform: translateY(0);
+	transition: all 600ms;
   }
-  to {
-    transform: rotate(360deg);
+  .pageSlider-exit {
+	transform: translateY(0);
   }
-}
+  
+  .pageSlider-exit.pageSlider-exit-active {
+	transform: translateY(100%);
+	transition: all 600ms;
+  }
+
