@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sanjoyksaha.github.io/static/css/main.e4361cd9.chunk.css",
-    "main.js": "/sanjoyksaha.github.io/static/js/main.e6503578.chunk.js",
-    "main.js.map": "/sanjoyksaha.github.io/static/js/main.e6503578.chunk.js.map",
+    "main.js": "/sanjoyksaha.github.io/static/js/main.5ffbd302.chunk.js",
+    "main.js.map": "/sanjoyksaha.github.io/static/js/main.5ffbd302.chunk.js.map",
     "runtime-main.js": "/sanjoyksaha.github.io/static/js/runtime-main.b9226f48.js",
     "runtime-main.js.map": "/sanjoyksaha.github.io/static/js/runtime-main.b9226f48.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/sanjoyksaha.github.io/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.dec2c01e.chunk.js": "/sanjoyksaha.github.io/static/js/2.dec2c01e.chunk.js",
     "static/js/2.dec2c01e.chunk.js.map": "/sanjoyksaha.github.io/static/js/2.dec2c01e.chunk.js.map",
     "index.html": "/sanjoyksaha.github.io/index.html",
-    "precache-manifest.56ddce3106a1d8c87de28a244eb0ea52.js": "/sanjoyksaha.github.io/precache-manifest.56ddce3106a1d8c87de28a244eb0ea52.js",
+    "precache-manifest.ec9004b1f6ca8c3f9cfd3e894aeae126.js": "/sanjoyksaha.github.io/precache-manifest.ec9004b1f6ca8c3f9cfd3e894aeae126.js",
     "service-worker.js": "/sanjoyksaha.github.io/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/sanjoyksaha.github.io/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.e4361cd9.chunk.css.map": "/sanjoyksaha.github.io/static/css/main.e4361cd9.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.dec2c01e.chunk.js",
     "static/css/main.e4361cd9.chunk.css",
-    "static/js/main.e6503578.chunk.js"
+    "static/js/main.5ffbd302.chunk.js"
   ]
 }

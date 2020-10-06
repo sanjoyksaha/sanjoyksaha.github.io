@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "032094665ef6720271bf9527c07a92cb",
+    "revision": "7b4428e4ede36aec1c9e5ddf2444bd30",
     "url": "/sanjoyksaha.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sanjoyksaha.github.io/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "062dc6f5d7fa1e45c7d8",
+    "revision": "58f794e02df4947e0792",
     "url": "/sanjoyksaha.github.io/static/css/main.e4361cd9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sanjoyksaha.github.io/static/js/2.dec2c01e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "062dc6f5d7fa1e45c7d8",
-    "url": "/sanjoyksaha.github.io/static/js/main.e6503578.chunk.js"
+    "revision": "58f794e02df4947e0792",
+    "url": "/sanjoyksaha.github.io/static/js/main.5ffbd302.chunk.js"
   },
   {
     "revision": "76707f8f662d34e67906",
