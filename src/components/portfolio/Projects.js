@@ -17,14 +17,14 @@ const Projects = (props) => {
                                         <i className="fas fa-project-diagram"></i>
                                         { 
                                             project.github && (
-                                                <a href={`${project.github}`} className="social-icons">
+                                                <a href={`${project.github}`} className="social-icons" target="blank">
                                                     <i className="fab fa-github"></i>
                                                 </a>
                                         )}
 
                                         { 
                                             project.website && (
-                                                <a href={`${project.website}`} className="social-icons">
+                                                <a href={`${project.website}`} className="social-icons" target="blank">
                                                     <i className="fas fa-globe"></i>
                                                 </a>
                                         )}

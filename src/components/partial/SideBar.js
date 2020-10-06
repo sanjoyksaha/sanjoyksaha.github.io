@@ -3,9 +3,6 @@ import { ListGroup } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 function SideBar(props) {
-
-    
-
   
     const [ year, setYear ] = useState();
 
@@ -27,13 +24,12 @@ function SideBar(props) {
         }
     }
 
-
-
     const Year = () => {
         const data = new Date();
         const getyear = data.getFullYear();
         setYear(getyear);
     }
+      
 
     return (
         <div className="sidebar">
@@ -63,7 +59,7 @@ function SideBar(props) {
                             </NavLink>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <a href="https://drive.google.com/file/d/1x_mknC86tkMaePTxXDVUKogyfLl7bNFy/view?usp=sharing" className="links">
+                            <a href="https://drive.google.com/file/d/10B7JAh5_2Rpb9stMo3GpcfgDZZcDAV5i/view?usp=sharing" className="links" target="_blank">
                                 Resume
                             </a>
                         </ListGroup.Item>
@@ -74,10 +70,10 @@ function SideBar(props) {
                         </ListGroup.Item>
                         <div className="sidebar-footer">
                             <ListGroup.Item>
-                                <a href="https://www.facebook.com/sahaksanjoy/" className="social-icons"><i className="fab fa-facebook-f"></i></a>
-                                <a href="https://github.com/sanjoyksaha" className="social-icons"><i className="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/sanjoyksaha/" className="social-icons"><i className="fab fa-linkedin"></i></a>
-                                <a href="https://www.instagram.com/sanjoyksaha/?hl=en" className="social-icons"><i className="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/sahaksanjoy/" target="_blank" className="social-icons"><i className="fab fa-facebook-f"></i></a>
+                                <a href="https://github.com/sanjoyksaha" target="_blank" className="social-icons"><i className="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/sanjoyksaha/" target="_blank" className="social-icons"><i className="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/sanjoyksaha92" target="_blank" className="social-icons"><i className="fab fa-twitter"></i></a>
                             </ListGroup.Item>
                         </div>
                         <div className="copy">

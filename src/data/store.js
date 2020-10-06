@@ -24,7 +24,7 @@ export default {
             id: 3,
             title: "SSFOODLTD.",
             slug: "ssfoodltd",
-            description: "It’s a corporate website build from scratch with Fontend and admin panel.",
+            description: "It’s a corporate website build from scratch with Frontend and admin panel.",
             usingtools: "Laravel, MySQL, JS, Bootstrap, CSS and HTML.",
             github: "",
             website: "https://www.ssfoodbd.com/",
@@ -37,7 +37,7 @@ export default {
             description: "Complete web based Laravel HRM system.",
             usingtools: "Laravel, MySQL, JS, JQuery, Ajax and Bootstrap",
             github: "",
-            website: "",
+            website: "https://laravel-hrm.herokuapp.com/",
         },
 
         {
